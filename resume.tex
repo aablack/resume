@@ -1,0 +1,92 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+
+\setlength{\oddsidemargin}{-.2in}
+\setlength{\textwidth}{5.2in} 
+
+\begin{document}
+    \name{\LARGE Adam Black}
+    \address{ablack@fastmail.net}
+    \address{0401 868 343}
+
+    \begin{resume}
+        \section{\textsc{Skills}}
+        \begin{list}{\labelitemi}{\leftmargin=1em \itemsep=-2pt}
+            \item{\textbf{Languages}: Python, Javascript, HTML, SQL}
+            \item{\textbf{Frameworks}: PyUnit, jQuery, Django, PyGTK}
+            \item{\textbf{Technologies}: SOAP, Modbus, BACnet}
+            \item{\textbf{Tools}: Vim, Eclipse, Subversion, Jira}
+            \item{\textbf{Applications}: Apache, Bash, BIND, Samba, Buildbot, Asterisk, Wireshark, \LaTeX}
+            \item{\textbf{Systems}: Linux, Unix, OS X, Windows, KVM, VirtualBox, VMWare}
+            \item{\textbf{Networking}: Ethernet, TCP/IP, Wireless Mesh Networking (ZigBee)}
+        \end{list}
+
+        \section{\textsc{Experience}} \textbf{IRESS}, Melbourne, VIC \hfill Aug 2012 - present \\
+        \textit{Research Software Developer}
+        \begin{list}{\labelitemi}{\leftmargin=1em \itemsep=-2pt}
+            \item{Refactored unmaintainable legacy code for existing features.}
+            \item{Redesigned Javascript/RPC pages to use the template system.}
+            \item{Fixed web framework issues when they arose.}
+            \item{Implemented modules to streamline the workflow in various areas such as sorting tables and caching user data.}
+        \end{list}
+
+        \textbf{Daintree Networks}, Scoresby, VIC \hfill Feb 2010 to July 2012 \\
+        \textit{QA Automation Engineer}
+        \begin{list}{\labelitemi}{\leftmargin=1em \itemsep=-2pt}
+            \item{Lead the design and development of a Python-based regression test system for the lighting and HVAC control system (ControlScope Manager).}
+            \item{Increased the automated test coverage by implementing the required infrastructure and test cases.}
+            \item{Developed analysis tools used by the marketing team to scope hardware requirements for customer deployments.}
+            \item{Developed a library for simulating various Modbus power meters using modbus-tk.}
+            \item{Created a custom Linux installer to streamline the deployment of ControlScope Manager.}
+            \item{Lead testing for the WAC50 (Wireless Area Controller) embedded Linux hardware platform.}
+        \end{list}
+
+        \textit{Key skills}:
+        \begin{list}{\labelitemi}{\leftmargin=1em \itemsep=-2pt}
+            \item{Develop a Python-based regression test system and automated test cases.}
+            \item{Debug Java code using Eclipse.}
+            \item{Debug and analyse transactions in a ZigBee network.}
+            \item{Network performance testing using JMeter.}
+            \item{Linux network and services administration: BIND, dhcp3-server, Apache, Samba, Buildbot}
+            \item{Provide customer support.}
+            \item{Group work and team collaboration.}
+            \item{Black box testing, white box testing, and defect investigation.}
+            \item{Test plan and test case design.}
+        \end{list}
+             
+        \textbf{Centre for Advanced Internet Architectures},\hfill Feb 2012 - July 2012 \\
+        Swinburne University of Technology Hawthorn, VIC \\
+        \textit{Research Assistant (Industry Based Learning)}
+        \begin{list}{\labelitemi}{\leftmargin=1em \itemsep=-2pt}
+            \item{Compared the network traffic characteristics of various multi-player game engines using py-
+                libpcap.}
+            \item{Created a Wireshark plugin in C for dissecting VTun packets.}
+            \item{Measured the power fluctuations in consumer ADSL modems as a function of network traffic.}
+            \item{Used a Dummynet bridge to introduce latency and jitter between hosts.}
+        \end{list}
+
+        \section{Education} \textbf{Swinburne University of Technology} \hfill 2010
+        \textit{Bachelor of Engineering (Telecommunications and Internet Technology) / Bachelor of Science (Computer Science and Software Engineering)}
+
+        \textit{Awards}:
+        \begin{list}{\labelitemi}{\leftmargin=1em \itemsep=-2pt}
+            \item{First class honors in Bachelor of Engineering.}
+            \item{Faculty of ICT award for the most outstanding final year student in 2010 in the Bachelor of Engineering (Telecommunications and Internet Technology) / Bachelor of Science (Computer Science and Software Engineering).}
+            \item{Ericsson Award for the highest achieving student in Broadband Multimedia Networks.}
+            \item{Australia Arrow Award for the highest achieving student in Software Engineering Project B.}
+            \item{Highest achieving student in Communication Information Theory.}
+        \end{list}
+
+        \section{Interests}
+        \begin{list}{\labelitemi}{\leftmargin=1em \itemsep=-2pt}
+            \item{Competitive squash.}
+            \item{Weight training and fitness.}
+            \item{Configuring and maintaining home network and media services.}
+        \end{list}
+
+        \section{References}
+        Available upon request.
+    \end{resume}
+\end{document}
+
