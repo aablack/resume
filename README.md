@@ -1,4 +1,4 @@
 resume
 ======
 
-My resume
+My resume as LaTex source
